@@ -11,6 +11,15 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      backgroundImage: {
+        'brick-pattern': "url('/download.jpg')",
+      },
+      background : {
+        'gradient-background': "linear-gradient(to right, gray , black ))",
+      },
+      shadows: {
+        'custom-shadow': '0 0 10px ',
+      },
     },
   },
   plugins: [],
